@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hero Section with Video Background</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body, html {
+      width: 100%;
+      height: 100%;
+      font-family: Arial, sans-serif;
+    }
+
+    .hero-section {
+      position: relative;
+      width: 100%;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .hero-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1; /* Push video to the back */
+    }
+
+    .hero-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+
+    .hero-overlay h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+
+    .hero-overlay p {
+      font-size: 1.5rem;
+      margin-bottom: 30px;
+    }
+
+    .hero-overlay button {
+      background-color: #ff7f50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s;
+    }
+
+    .hero-overlay button:hover {
+      background-color: #ff4500;
+    }
+  </style>
+</head>
+<body>
+  <div class="hero-section">
+    <!-- Video Background -->
+    <video class="hero-video" autoplay loop muted>
+      <source src="https://cdn.pixabay.com/video/2016/01/29/1992-153555258_tiny.mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <!-- Overlay Content -->
+    <div class="hero-overlay">
+      <h1>Ku Soo Dhawoow Boggaaga</h1>
+      <p>Tani waa Hero Section oo leh Video Background.</p>
+      <button>Wax Dheeri ah Baro</button>
+    </div>
+  </div>
+</body>
+</html>

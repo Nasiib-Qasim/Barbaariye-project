@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+    --color-primary: #0074ff;
+    --color-black: #141d28;
+    --color-black2: #212b38;
+    --color-white: #e9e9e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: var(--color-white);
+    position: relative;
+    background-color: #141d28;
+}
+
+.container{
+    width: 1110px;
+    margin: auto;
+}
+
+.hero-blog{
+    background-image: 
+    linear-gradient(to  right, rgba(20, 29, 40, 0.9) 30%, rgba(20, 29, 40, 0) 80%), 
+    linear-gradient(to top, rgba(20, 29, 40, 0.9) 30%, rgba(20, 29, 40, 0) 50%), 
+    url("https://images.unsplash.com/photo-1619410283995-43d9134e7656?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%;
+    max-height: 500px;
+}
+.hero img{
+    width: 100%;
+}
+.hero{
+    width: 100%;
+    max-width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+}
+#post-title{
+    font-size: 2rem;
+    color: white;
+}
+#desc-hero{
+    font-size: 19px;
+    color: white;
+}
+.author{
+    display: flex;
+    margin-bottom: 50px;
+    gap: 10px;
+}
+.author img{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.author-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+.author-box h4{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #0074ff;
+
+}
+.author-box p{
+    color: #b3b3b3;
+    font-size: 17px;
+}
+.author-box i{
+    color: white;
+}
+
+.hero-post{
+   padding: 40px;
+   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+.post-info img{
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.post-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 860px;
+    margin: auto;
+}
+
+.post-info h1{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+}
+.post-info p{
+    font-size: 18px;
+    line-height: 29px;
+    font-weight: 400;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .hero-post{
+        padding: 40px 15px;
+     }
+     
+.post-info h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.1rem;
+    color: #0074ff;
+}
+.post-info p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
+}

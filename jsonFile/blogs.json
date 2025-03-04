@@ -1,0 +1,84 @@
+    [
+        {
+            "id": 1,
+            "title": "Waa Maxay Programming Language",
+            "category": "Programming Language",
+            "date": "Jan 13, 2025",
+            "author": "Nasiib Qasim",
+            "author_image": "./sawiro/nasiib 1.jpg",
+            "read_time": "9 min read",
+            "language": "Somali",
+            "image": "https://images.unsplash.com/photo-1619410283995-43d9134e7656?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "excerpt": "Sida aan ognahay, si aan ula xiriirno qof, waxaan u baahanahay luqad gaar ah, si la mid ah si aan ula xiriirno kombuyuutarrada, programmers ka sidoo kale..",
+            "content": [
+            {
+                "heading": "Waa Maxay Programming Language",
+                "text": "Sida aan ognahay, si aan ula xiriirno qof, waxaan u baahanahay luqad gaar ah, si la mid ah si aan ula xiriirno kombuyuutarrada, programmers ka sidoo kale waxay u baahan yihiin luqad, taas ayaa waxaa loo yaqaan ‘Programming Language’.Kahor intaanan baran luqadda barnaamijka (Programing Language), aan fahanno waa maxay luqad?"
+            },
+            {
+                "heading": "Waa maxay Luqad?",
+                "text": "Luqaddu waa hab isgaarsiin oo loo isticmaalo in lagula wadaago fikradaha, ra’yiga midba midka kale. Tusaale ahaan, haddii aan rabno inaan qof lahadalno, waxaan u baahanahay luqad an fahmi karno aniga iyo qofka kale."
+            },
+            {
+                "heading": "Waa maxay Programing Language?",
+                "text": "Programming Language waa luuqad kumbiyuutar oo ay isticmaalaan programmers (developers) si ay ula xiriiraan kombayutarada. Waa tilmaamo lagu qoray luqad kasta oo gaar ah (C, C++, Java, Python) si loo qabto hawl gaar ah.Luqadda barnaamijka (Programing Language) waxaa inta badan loo isticmaalaa in lagu horumariyo ama lagu sameeyo barnaamijyada desktop-ka, mareegaha (Websites), iyo barnaamijyada mobilada (Mobile Applications).Luuqadaha programming-ka waa lama huraan waayo kombuyuutarku ma fahmi karaan af-soomaaliga. Luuqadaha programming-ka waxa ay soo afjaraan farqigan iyaga oo ka caawinaya programmers ka in ay u turjumaan amarradooda wax uu kumbiyuutarku fahmi karo oo uu fulin karo."
+            },
+             {
+                "heading": "Maxay kumbiyuutarradu u fahmi waayeen af-soomaali ama luqadaha kale?",
+                "text": "Marka ay dadku la xiriiraan kumbuyuutarka, waxaa muhiim ah in ay si gaar ah u sheegaan waxa ay ka codsanayaan kombiyuutarka inuu sameeyo.Programming languages waa qalab (Tool) u ogolaanaya inay kumbuyuutarku ku amraan. Inta badan, luqadadda afka soomaaliga waxa ay noqon kartaa mid mugdi ku jiro oo ay ku adag tahay kombuyuutarku in uu go’aamiyo ujeedada. Programmers-ku waxay adeegsadaan luuqadaha barnaamijka si ay u caddeeyaan sida saxda ah waxa ay rabaan in kombuyuutarku sameeyo."
+            },
+            {
+                "heading": "Sidee kumbiyuutarradu u fikiraan?",
+                "text": "Kumbuyuutarku waxay ka samaysan yihiin furayaal yaryar oo badan oo daari kara ama dami kara.Marka uu shidan yahay, waxa uu u taagan yahay 1. Marka uu dansan yahayna, waxa uu u taagan yahay 0. 1aad iyo 0aad waxa loo yaqaannaa bits.Bits waa luqadda aasaasiga u ah ​​dhammaan kombiyuutarada, barnaamij walbana waa in loo tarjumaa (0s,1s) ka hor inta uusan kumbiyuutarku fulin.Marka 8 bits la isku daro, ayaa waxaa loo yaqaanaa byte.Baytku wuxuu matali karaa xaraf, tusaale ahaan, 01100001 waxay u taagan tahay xarafka ‘A‘. Baytku waxa kale oo uu matali karaa dabeecadda xakamaynta.Marka la matalo tiro iyadoo la isticmaalayo bits, waxaa laga rogi karaa salkeeda caadiga ah ee 10 oo loo rogi karaa binary. Tan waxaa loo yaqaan matalaadda binary (binary representation).NOTE: kombuyuutar-ku ma fahmo wax aan binary (0s 1s) aheyn, wax walbana waa in loo badalaa binary si uu u fahmo."
+            }
+            ],
+            "link": "/blog/sidee-loo-noqdaa-ethical-hacker"
+        },
+        {
+            "id": 2,
+            "title": "Waa Maxay Computer Science?",
+            "category": "Computer Science",
+            "date": "Jan 13, 2025",
+            "author": "Mr Sharafdin",
+            "author_image": "https://dugsiiyeimages.s3.ap-south-1.amazonaws.com/avatars/61decd1031cf554a7e452d06-1736830758646.webp",
+            "read_time": "6 min read",
+            "language": "Somali",
+            "image": "https://miro.medium.com/v2/resize:fit:3840/format:webp/1*dKEfzl6bh-jGXBz_jLbR4Q.jpeg",
+            "excerpt": "Waxaad online ka daawataa filimada, ciyaartaa ciyaaraha fiidyaha ( video games ), waad ku shaqeysaa, wax baad ku barataa oo aad ku dhex....",
+            "content": [
+            {
+                "heading": "Waa Maxay Computer Science?",
+                "text": "Waxaad online ka daawataa filimada, ciyaartaa ciyaaraha fiidyaha ( video games ), waad ku shaqeysaa, wax baad ku barataa oo aad ku dhex gashaa YouTube kumbuyuutarkaaga. Laakin waligaa ma is waydiisay sida kombayutarada dhab ahaantii u shaqeeyaan ama waa maxay cilmiga kombayuutarku? Qeexitaan fudud oo sayniska kombuyuutarku waa ( computer science ):Computer Science waa barashada kombuyuutarrada, oo ay ku jiraan aragtida xisaabinta ( computational theory ), naqshadaynta hardware iyo software, algorithmyada iyo habka dadku ula falgalaan tignolojiyada ( technology ).Haddii aad xiisaynayso waddo shaqo oo adag oo abaal-marin leh, waxaa laga yaabaa inaad rabto in aad noqoto saynisyahan kombuyuutar ( computer scientist).Saynisyahanada kombuyuutarku waa xaliyayaasha mushkiladaha. Marka Saynisyahanada kombuyuutarku ay helaan dhibaato ( problem ), waxay ururiyaan macluumaadka oo waxa ay la xiriiraan kombuyuutarrada iyaga oo isticmaalaya luqadaha barnaamijyada ( programming languages ) iyo logic ( tusaale “python” ). Waxay abuuraan xeerar ama tilmaamo si kombuyuutarku uu u fuliyo oo u xalliyo dhibaatada. si akhri si aad wax badan uga barato waxa uu yahay cilmiga kumbuyuutarka, muhiimada iyo faa’iidooyinka sayniska kombiyuutarka, agabka xirfadeed iyo ilaha ( professional tools and resources ), iyo sida loo sii wado barasha xirfada sayniska kombiyuutarka."
+            },
+            {
+                "heading": "Waa Maxay Muhiimada Uu Leeyahay Computer Science?",
+                "text": "Xitaa marka aan u maleyno inaan “ka saarnay” bulshada tignolojiyada, waxaa jira aalado ka shaqeeya guud ahaan guryaheena iyo xaafadaheena. Waa ammaan in la yiraahdo waxaan ku noolnahay adduun si weyn ugu tiirsan tignoolajiyada. Bulshada hada jirta, waxa ka soo baxay laba nooc oo kala ah: Kuwo u oggolaaday tignoolajiyada in ay maamusho noloshooda iyo kuwa abuura tignoolajiyada wax ka beddeleysa nolosha. Dhinacee ayaad doorbidi lahayd inaad noqoto?Saynisyahanada kombuyuutarku waxay xalliyaan mashaakilaad adag sida saadaalinta masiibooyinka dabiiciga ah, samaynta khariidaynta qaababka dillaaca fayraska, hagaajinta nidaamka daryeelka caafimaadka iyo ka dhigista waxbarashada mid la heli karo. Tusaale ahaan, waxbarashada onlaynka ahi waxa ay ahayd wax ay dadku mar ku qoslaan, imminkana, dadku waxa ay wax kasta oo online ah ka baran karaan casharrada YouTube ilaa goobaha waxbarashada bilaashka ah, sida Khan Academy iyo sido kale kuwa lacag ah sida Hurbad."
+            },
+            {
+                "heading": "Waa Maxay Faaidooyinka Uu Leeyahay Computer Science?",
+                "text": "Shirkadaha intooda badani waa shirkado teknoloji ah oo in tooda badan ah kuwa waaweyn, haddii ay ahaan laheyd buug ama gaari waxa ay u guurayaan ganacsiga e-commerce ama isticmaalka app si aad uga hesho cuntada aad jeceshahay albaabkaaga, tignoolajiyada sayniska kombiyuutarka ayaa hagaajisay inan galno ama helno wax walba kaliya anagoo isticmaaleena farteena wax walba waa farteena. Qarashaad ka mushaar ahaan waxa uu ku xidhan yahay waayo-aragnimadaada iyo shirkada, laakiin Xafiiska Tirakoobka Shaqaalaha ee Maraykanka (BLS) waxa uu soo tebiyaa mushahar dhexdhexaad ah oo ah $110,140 sannadkii ama $52.95 saacaddii.Marka loo eego BLS, waxaa jiray 1,847,900 shaqo oo loogu talagalay soosaarayaasha softiweerka 2020 ( software developers ), oo ay ku jiraan kuwa sameeya apps ka iyo nidaamyada soo saareyaasha software ( applications and systems developers. ). fildhigaan ayaa la filayaa inay koraan 22% inta u dhaxaysa 2020 iyo 2030, taas oo ka badan laba jeer oona ka dhakhso badan celceliska kobaca suuqa shaqada ee Maraykanka oo idil.Sida cad, waxaa jirta baahi loo qabo xirfado farsamo oo la xidhiidha sayniska kombiyuutarka maadaama shirkaduhu ay casriyeynayaan habka ganacsigooda. Xirfadda sayniska kombiyuutarka, gaar ahaan horumarinta software, waa meel cusub oo waxay u noqon kartaa shaqo xiiso leh kuwa ku raaxaysan waxbarashada nolosha oo dhan ( F.G: barashada computer science ku waa wax barasho aan dhamaad laheyn oo is bad badasha “update” )."
+            }
+            ],
+            "link": "/blog/waa-maxay-computer-science"
+        },
+        {
+            "id": 3,
+            "title": "Waa Maxay Video Editing?",
+            "category": "Digital Media",
+            "date": "Jan 13, 2025",
+            "author": "Nasiib Qasim",
+            "author_image": "./sawiro/nasiib 1.jpg",
+            "read_time": "6 min read",
+            "language": "Somali",
+            "image": "https://gellebashir.com/wp-content/uploads/2024/11/photo-1574717024653-61fd2cf4d44d-590x430.jpeg",
+            "excerpt": "Video editing-ku waa tafatirka, kala-hufka, jarjaridda, isgu-geynta, midabaynta muuqaalada, kaasoo muuqaalka ka dhigaya mid tayo sare leh, oo soo...",
+            "content": [
+            {
+                "heading": "Waa Maxay Video Editing?",
+                "text": "Faa’iidada ugu weyn ee ay xirfaddani leedahay waa fursadaha shaqo ee aan kala go’a lahayn.Waxa aynu ka hadlaynaa waa video editing-ka, waa mid ka mid ah xirfadaha ugu muhiimsan wakhti xaadirkeenan.Video editing-ku waa tafatirka, kala-hufka, jarjaridda, isgu-geynta, midabaynta muuqaalada, kaasoo muuqaalka ka dhigaya mid tayo sare leh, oo soo jiidasho leh.Xirfaddani waxay door weyn ku leedahay dunida, gaar ahaan dunida dijitaalka ah, maadaama uu muuqaalku noqday mid ka mid ah hababka ugu saamaynta badan ee lagu wada-xidhiidho, ama xogo la isu waydaarsado.Tafatirka muuqaaladu waa geeddi-socod farsamo iyo hal-abuur isugu jira, taas oo uu qofka video editor-ka ahi u baahan yahay inuu lahaado xirfad sare oo ku aadan isticmaalka barnaamijyada tafatirka muuqaalada, sida Adobe Premiere Pro, Final Cut Pro, DaVinci Resolve, iyo CapCut.Qofka video editor-ka dhabta ahi, waa qof muuqaal xun u bedeli kara, ama ka dhigi kara muuqaal tayo wanaagsan leh, oo soo jiidasho leh.Muuqaalka ayaa loo adeegsadaa suuqgeynta, barnaamijyada, tababarada, TV-yada, filimada, xayaysiinta, baraha bulshada, iwm.Taasoo muujinaysa sida xirfadda video editing-ku uu muhiim ugu yahay dhinacyada kala duwan ee nolosheena.Ganacsiyada, shirkadaha suuqgeynta, iyo filim sameeyeyaashaba waxay aad ugu baahan yihiin dad karti u leh tafatirka muuqaalada, si ay ugu curiyaan xayaysiimo tayo sare leh, muuqaalo suuqgeyneed, iwm.Mid ka mid ah faa’idooyinka xirfadda video editing-ku waa inaadan ku shaqo waayeen, amaba ay adag tahay inaad ku shaqo waydo. waa hadiise aad si dhabba ah oo xirfadaysan aad u taqaan video editing-ka.Ugu dambeyntii, xirfadda video editing-ka waxay leedahay koboc joogto ah iyadoo tignoolajiyadu sii horumarto marba marka ka danbaysa, taasoo fursado badan siineysa dadka jecel in ay horumariyaan xirfadahooda.Maanta, muuqaalku waa hab muhiim ah oo isgaarsiineed oo loo adeegsado ganacsiyada, suuqgeynta, iyo madadaalada, taas oo ka dhigeysa xirfadda video editor-ka mid qiimo leh oo muhiim ah.Xirfadda video editing-ku waa xirfad leh fursado badan oo kala duwan, iyadoo ku lug leh dhinacyo kala duwan oo nolosheena ka mid ah.Hagaag, hadii aad rabto inaad noqoto xirfadle iskii-u-shaqaysta, ama ku shaqayta xirfadan video editing-ka, ku soo biir academy-deena, oo qaado 2-dan koorso ee hoos ku xusan midkood:Hadii aad u baahan tahay faahfaahin intaa ka badan oo ku saabsan 2-dan koorso, fadlan booqo bogga koorsada, oo xagaa ka bogo xog kastood u baahato."
+            }
+            ],
+            "link": "/blog/waa-maxay-computer-science"
+        }
+    ]
+  

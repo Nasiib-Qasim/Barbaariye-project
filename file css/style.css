@@ -1,0 +1,1193 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+    --color-primary: #0074ff;
+    --color-black: #141d28;
+    --color-black2: #212b38;
+    --color-white: #e9e9e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: var(--color-white);
+    position: relative;
+}
+
+.container{
+    width: 1110px;
+    margin: auto;
+    /* padding: 10px; */
+    /* height: 100%; */
+}
+/* hero section  */
+
+
+
+
+
+
+.hero-section{
+    background-image: 
+        linear-gradient(to right, rgba(20, 29, 40, 0.5), transparent 100%),url("./young-happy-smiling-woman-casual-clothes-holding-laptop-sending-email-her-best-friend-isolated-gray-background.jpg") ;
+    background-position-y: 10%; 
+    background-position-x: 0; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 100vh; 
+    width: 100%;
+}
+.container-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 580px;
+    height: 100%;
+}
+
+
+.information-hero h1{
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0 0 20px 0;
+    transition: transform 0.5s ease-in-out;
+    animation: textAnimation 1s linear;
+    animation-fill-mode: backwards;
+    position: relative;
+    color: black;
+}
+
+#color{
+    color: #0074ff;
+}
+
+@keyframes textAnimation{
+    0%{
+        left: -100px;
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+        left: -75px;
+    }
+    50%{
+        opacity: 0.25;
+        left: -50px;
+    }
+    75%{
+        opacity: 0.5;
+        left: -25px;
+    }
+    90%{
+        opacity: 0.75;
+        left: -10px;
+    }
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}
+
+.information-hero p{
+    font-size: 1.252rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease-in-out;
+    animation: praghraphAnimation 1s linear;
+    animation-fill-mode: backwards;
+    position: relative;
+    color: white;
+}
+
+@keyframes praghraphAnimation{
+    0%{
+        bottom:  -100px;
+        opacity: 0;
+    }
+  
+    50%{
+        opacity: 0;
+        bottom:  -50px;
+    }
+    75%{
+        opacity: 0.75;
+        bottom:  -25px;
+    }
+    90%{
+        opacity: 0.9;
+        bottom:  -10px;
+    }
+    100%{
+        opacity: 1;
+        bottom:  0;
+    }
+}
+
+.read-more{
+    background-color: #0074ff;
+    padding: 10px 15px;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    transition: transform 0.5s ease-in-out;
+    animation: button 1s linear;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+    position: relative;
+}
+
+.information-hero button a{
+    color: white;
+    text-decoration: none;
+}
+
+ .information-hero .read-more:hover{
+    background-color: #141d28;
+    transition: background 0.6s linear;
+}
+
+
+
+.information-hero .learn-more{
+    font-size: 1.25rem;
+    padding: 10px 15px;
+    background-color: #141d28;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    position: relative;
+    transition: transform 0.5s ease-in-out;
+    animation: button 1s linear;
+    animation-fill-mode: backwards;
+    animation-delay: 0.5s;
+    position: relative;
+}
+
+    .learn-more:hover{
+    background-color: #0074ff;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+@keyframes button{
+    0%{
+        left: 100px;
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+        left: 75px;
+    }
+    50%{
+        opacity: 0;
+        left: 50px;
+    }
+    75%{
+        opacity: 0.5;
+        left: 25px;
+    }
+    90%{
+        opacity: 0.75;
+        left: 10px;
+    }
+    100%{
+        opacity: 0;
+        left: 0;
+    }
+}
+
+.goals{
+    width: 100%;
+}
+.goal-section{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+/* goal barbaaye */
+.goals{
+    width: 100%;
+}
+.goal-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.goal-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px auto;
+    background-color:var(--color-black);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+    animation: goal 1s linear;
+    animation-fill-mode: backwards;
+    animation-delay: 0.5s;
+    position: relative;
+}
+
+
+@keyframes goal{
+    0%{
+        left: 100px;
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+        left: 75px;
+    }
+    50%{
+        opacity: 0;
+        left: 50px;
+    }
+    75%{
+        opacity: 0.5;
+        left: 25px;
+    }
+    90%{
+        opacity: 0.75;
+        left: 10px;
+    }
+    100%{
+        opacity: 0;
+        left: 0;
+    }
+}
+.goal-info .goal-title{
+    font-size: 30px;
+    color: #0074ff;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.goal-info p{
+    font-size: 20px;
+    color: white;
+}
+.goals-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    margin: 10px 0;
+}
+
+.learn-box-back{
+    background-color: #141d28;
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+
+.learn-box{
+    background-color: var(--color-primary);
+    height: 100%;
+    margin-top: 30px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 10;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+    transition: margin 0.3s linear;
+    position: relative;
+    padding: 10px;
+}
+.learn-box:hover {
+    margin-top: 0px;
+    color: white;
+}
+.circle{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 150px;
+    width: 150px;
+    clip-path: polygon(100% 54%, 43% 100%, 100% 100%);
+    background-color: #141d28;
+    border-radius: 10px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.learn-box.certificate h3{
+    margin-top: -10px;
+}
+
+.certificate img{
+    width: 90px;
+}
+.learn-box.many img{
+    width: 81px;
+}
+.learn-box.learn-every img{
+    margin-bottom: -13px;
+}
+
+.learn-box h3{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    /* margin-bottom: 10px; */
+    margin-top: -10px;
+    font-weight: 700;
+}
+.learn-box p{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+.box-title{
+    text-align: center;
+    color: #0074ff;
+    font-size: 40px;
+    font-weight: 900;
+    margin:80px 0;
+    transition: color 0.3s linear;
+    text-transform: capitalize;
+}
+.box-title:hover{
+    color: #141d28;
+}
+
+
+
+
+
+/* display course */
+
+
+
+/* displaye course */
+.box-title{
+    text-align: center;
+    color: #0074ff;
+    font-size: 40px;
+    font-weight: 900;
+    margin:80px 0;
+    transition: color 0.3s linear;
+    text-transform: capitalize;
+}
+.box-title:hover{
+    color: #141d28;
+}
+
+.course-boxs{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   row-gap: 50px;
+   column-gap: 30px;
+   margin: 0 -10px;
+}
+
+.course-box{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.5s linear;
+}
+.course-box:hover{
+    transform: translateY(-20px);
+}
+
+.top-boxCourse{
+    height: 250px;
+    width: 100%;
+    position: relative;
+    background-color: #0074ff;
+    
+}
+
+.top-boxCourse .img img{
+    width: 100%;
+    height: 250px;
+    /* filter: grayscale(50%); */
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+.rating{
+    position: absolute;
+    bottom: 10px;
+    right: 5%;
+    
+}
+.rating i{
+    font-size: 20px;
+    font-weight: 500;
+    color: orange;
+    cursor: pointer;
+}
+.rating span{
+    font-size: 20px;
+    color: white;
+}
+.hourses{
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+}
+.hourses i{
+    font-size: 16px;
+    color: white;
+    margin-right: 3px;
+}
+.hourses span{
+    font-size: 18px;
+}
+
+.course-content{
+    display: flex;
+    flex-direction: column;
+    height: 120px;
+    /* background-color: #0074ff; */
+    margin-top: 20px;
+}
+
+
+
+.course-title{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--color-black);
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.author{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.author img{
+    width: 35px;
+    height:35px;
+    border-radius: 50%;
+    margin: 10px 10px;
+}
+
+.author p {
+    color: #141d28;
+    font-size: 17px;
+    font-weight: 500;
+}
+.author span{
+    font-size: 17;
+    color: #666;
+}
+
+.line{
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #666;
+    margin: 20px 0;
+}
+.payment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    gap: 10px   ;
+}
+.payment strong{
+    color: #141d28;
+    font-size: 20px;
+}
+.payment .enroll-btn{
+    padding: 8px 10px;
+    font-size: 16px;
+    color: #141d28;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #0074ff;
+    border-radius: 5px;
+    transition: background-color 0.3s linear;
+}
+
+.payment .enroll-btn:hover{
+    background-color: #0074ff;
+    color: white;
+}
+
+
+
+
+/* diploma box*/
+
+.diploma-boxs{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 50px;
+    column-gap: 30px;
+    margin: 0 -10px;
+ }
+ 
+ .diploma-box{
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+     border-radius: 10px;
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     transition: transform 0.5s linear;
+ }
+ .diploma-box:hover{
+     transform: translateY(-20px);
+ }
+
+
+
+
+
+
+ /* testemonial   section  */
+
+
+ .section__container {
+    text-align: center;
+  }
+
+  .section__container h1 {
+    text-align: center;
+    color: #0074ff;
+    font-size: 40px;
+    font-weight: 900;
+    margin:80px 0 6px 0;
+    transition: color 0.3s linear;
+    text-transform: capitalize;
+  }
+
+  .section__container h1:hover{
+    color: #141d28;
+  }
+
+  .section__container .read-students{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    color: #141d28;
+    margin-bottom: 50px;
+    text-wrap: wrap;
+  }
+
+
+
+  /* .section__container h1::after {
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 2px;
+    width: 5rem;
+    background-color: var(--color-primary);
+  }
+   */
+  .section__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+
+
+  .section__card {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    padding: 5rem 1rem 0rem 2rem;
+    background-color: var(--color-black);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  
+.section__card::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    background-color: #0074ff;
+    z-index: -1;
+    transition: 0.5s;
+  }
+
+  .section__card span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    font-size: 3rem;
+    color: white;
+  }
+
+  .section__card h4 {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #0074ff;
+    transition: 0.3s;
+  }
+
+ .section__card p{
+    color: #94a3b8;
+    margin-bottom: 2rem;
+    text-align: left;
+ }
+  
+ .personal-info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 25px;
+ }
+
+ .section__card img {
+    max-width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    border: 2px solid var(--primary-color);
+    transition: 0.3s;
+    margin-right: 20px;
+  }
+
+  .section__card h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0074ff;
+    transition: 0.3s;
+  }
+
+  .section__card h6 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--text-light);
+    transition: 0.3s;
+    margin-top: 5px;
+  }
+  
+
+
+  
+.section__card:hover::before {
+    width: 400%;
+    cursor: pointer;
+  }
+  
+  .section__card:hover :is(h4, h5) {
+    color: #141d28;
+    
+  }
+  
+  .section__card:hover :is(p, h6) {
+    color: #e9e9e9;
+  }
+  
+  .section__card:hover img {
+    border-color: #141d28;
+  }
+  
+
+
+
+
+
+
+
+  
+
+  /* rating */
+
+  .rate-section{
+    background-image: linear-gradient(rgba(26, 118, 209,0.6),rgba(0, 116, 255,0.6)),url("./concentrated-blonde-business-woman-using-laptop-computer.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 295px;
+    margin-top: 65px;
+    color: rgb(0, 116, 255);
+}
+
+.rated-barbaariye{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    justify-content: center;
+}
+.box-rate{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 15px;
+}
+.box-rate i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    font-size: 2.5rem;
+    color: white;
+}
+.box-rate:hover i{
+    background-color: white;
+    color: #0074ff;
+    transition: all 0.6s ease-in;
+}
+.info-rate{
+    display: flex;
+    flex-direction: column;
+}
+.info-rate span {
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    padding: 0 5px;
+}
+.info-rate p{
+    font-size: 1.1rem;
+    padding: 5px 5px;
+    font-weight: 400;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+/*  Frequently Asked Questions */
+
+
+.Frequently{
+    margin-top: 50px;
+}
+.FAQS{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Frequently-title{
+    color: #0074ff;
+    font-size: 40px;
+    font-weight: 900;
+    transition: color 0.3s linear;
+    text-transform: capitalize;
+    text-align: center;
+    /* margin-left: 80px; */
+    width: 100%;
+    transition: animation 05s linear;
+}
+
+.Frequently-title:hover{
+    color: #141d28;
+}
+#desc-FAQS{
+    margin-bottom: 40px;
+    color: #141d28;
+    max-width: 600px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.frequently-box{
+   max-width: 600px;
+   margin: 0 auto;
+}
+.faq-item{
+    background-color: #141d28;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+.faq-item:hover .faq-question{
+    color: #0074ff;
+}
+.faq-question{
+    font-size: 1.4rem;
+    color: white;
+    margin: 0;
+}
+.faq-answer{
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #94a3b8;
+    transition: display 0.9s linear;
+}
+
+
+
+
+
+
+/*  menu 7 */
+
+
+@media screen and (max-width: 768px) {
+  
+    /* hero section */
+    .hero-section {
+        background-image: 
+            linear-gradient(to left , rgba(20, 29, 40, 0.7) , rgba(20, 29, 40, 0.3)), 
+            url("./young-happy-smiling-woman-casual-clothes-holding-laptop-sending-email-her-best-friend-isolated-gray-background.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 15px;
+    }
+
+    .container-hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .information-hero {
+        width: 100%;
+        text-align: center;
+    }
+/* 
+    .information-hero h1 {
+        font-size: 2rem;
+        line-height: 1.5;
+        color: white;
+        margin-bottom: 15px;
+        background-color: #141d28;
+    } */
+    #service_info{
+        font-size: 2.5rem;
+        line-height: 1.5;
+        color: white;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+
+    .information-hero p {
+        font-size: 1rem;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    /* goal box */
+    .goal-title{
+        font-size: 20px;
+        color: #0074ff;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    .goals-box{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin: 10px 0;
+    }
+    .course-boxs{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 50px;
+        column-gap: 30px;
+        margin: 0 -10px;
+     }
+
+     .diploma-boxs{
+        display: grid;
+        grid-template-columns:1fr;
+        row-gap: 50px;
+        column-gap: 30px;
+        margin: 0 -10px;
+     }
+     .section__grid {
+        grid-template-columns: 1fr;
+      }
+      .section__container h1{
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 30px;
+      }
+      .rated-barbaariye{
+        grid-template-columns: repeat(2 ,1fr);
+    }
+    .box-rate {
+        margin-left: 20px;
+    }
+    .box-rate i{
+        border: none;
+        transition: color 0.3s linear;
+    }
+    .box-rate:hover i{
+        color: #141d28;
+        background: none;
+    }
+    .Frequently-title{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .Frequently-title {
+        font-size: 30px; /* Yaree cabbirka font-ka */
+        width: auto; /* Ka saar width limit */
+        margin: 40px 0; /* Yaree margin */
+    }
+
+    .frequently-box {
+        max-width: 90%; /* U oggolow in ay buuxiso ballaca */
+        padding: 0 10px; /* Ku dar padding si loo yareeyo scroll */
+    }
+
+    .faq-question {
+        font-size: 1.2rem; /* Yaree cabbirka font-ka */
+    }
+
+    .faq-answer {
+        font-size: 0.9rem; /* Yaree cabbirka font-ka */
+    }
+}
+
+
+
+/* 820 */
+
+
+@media screen and (max-width: 835px) and (min-width: 767px){
+    .hero-section {
+        background-image: 
+            linear-gradient(to left , rgba(20, 29, 40, 0.7) , rgba(20, 29, 40, 0.3)), 
+            url("./young-happy-smiling-woman-casual-clothes-holding-laptop-sending-email-her-best-friend-isolated-gray-background.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 15px;
+    }
+    /* goal box */
+    .goal-title{
+        font-size: 20px;
+        color: #0074ff;
+        font-weight: 900;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .goals-box{
+        display: grid;
+        grid-template-rows:  1fr 1fr ;
+        grid-template-columns:  1fr 1fr ;
+        gap: 30px;
+        margin: 10px 0;
+        place-items: center;
+    }
+    .goals-box > div{
+        /* height: 100%; */
+    }
+    .last{
+        /* order: 1; */
+        grid-column: 1/2;
+        max-width: 50vw;
+        place-items: center;
+        position: relative;
+        left: 20vh;
+    }
+    .course-boxs{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+        column-gap: 30px;
+        margin: 0 -10px;
+     }
+
+     .diploma-boxs{
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        row-gap: 50px;
+        column-gap: 30px;
+        margin: 0 -10px;
+     }
+
+
+    .section__grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    /* flex-wrap: wrap; */
+  }
+  .hani{
+    /* order: 1; */
+    grid-column: 1/2;
+    max-width: 50vw;
+    place-items: center;
+    position: relative;
+    left: 18vh;
+}
+
+}
+
+/* ipad air iyo waxii ka wayn */
+
+
+
+@media screen and (max-width: 1115px) and (min-width: 835px){
+    .toggle-btn {
+        display: flex;
+    }
+    .logo-brand h1 {
+        text-transform: capitalize;
+        font-size: 32px;
+        color: white;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--color-black);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .menu ul li {
+        padding: 10px 0;
+        font-size: 32px;
+    }
+
+    .menu ul li:hover .dropdown {
+        position: relative;
+        top: 0;
+        box-shadow: none;
+    }
+
+    .menu ul li:hover .dropdown ul {
+        margin: 0;
+    }
+
+    .menu ul li:hover .dropdown ul li{
+        font-size: 32px;
+    }
+    .userAction {
+        display: none;
+    }
+    .hero-section {
+        background-image: 
+            linear-gradient(to left , rgba(20, 29, 40, 0.7) , rgba(20, 29, 40, 0.3)), 
+            url("./young-happy-smiling-woman-casual-clothes-holding-laptop-sending-email-her-best-friend-isolated-gray-background.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 20px;
+    }
+
+    .container-hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 80%; /* Si loogu ekaysiiyo desktop */
+        max-width: 700px; /* Wuxuu xadidayaa ballaca */
+    }
+
+    .information-hero {
+        width: 100%;
+        text-align: center;
+    }
+
+    .information-hero h1 {
+        font-size: 2.5rem;
+        line-height: 1.3;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    .information-hero p {
+        font-size: 1.2rem;
+        color: white;
+        margin-bottom: 20px;
+    }
+
+    .hero-button {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+
+}
+
+

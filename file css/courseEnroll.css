@@ -1,0 +1,783 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-primary: #0074ff;
+    --color-black: #141d28;
+    --color-black2: #212b38;
+    --color-white: #e9e9e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: var(--color-white);
+    position: relative;
+}
+
+.header {
+    background-color: var(--color-black);
+    width: 100%;
+    height: 80px;
+    z-index: 1111;
+}
+
+.menuFixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation: slidedown .3s forwards;
+}
+
+@keyframes slidedown {
+    from {
+        top: -250px;
+    }
+    to {
+        top: 0;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+
+.container {
+    width: 90%;
+    max-width: 1110px;
+    margin: auto;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.hero-course-enroll{
+    background-image: linear-gradient(rgba(26, 118, 209,0.6),rgba(0, 116, 255,0.7)),url("./concentrated-blonde-business-woman-using-laptop-computer.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh; 
+    width: 100%;
+}
+.course-enroll-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.course-info{
+    max-width: 600px;
+}
+
+.course-info h1{
+    font-family: "Poppins", serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #141d28;
+}
+
+.course-info p{
+    font-size: 18px;
+    font-size: 400;
+    color: white;
+    line-height: 30px;
+}
+
+.course-video-trailer {
+    width: 440px;
+    height: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border: 4px solid #fff;
+    background-color: #000;
+    cursor: pointer;
+}
+
+
+.course-video-trailer iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 15px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.course-contact{
+    margin: 50px 0;
+    position: relative;
+}
+
+.course-title-video{
+    font-size: 24px;
+    max-width: 700px;
+}
+.course-title-video iframe{
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    transition: transform 0.5s ease,  border-color 0.5s ease;
+    margin-bottom: 20px;
+}
+.course-title-video iframe:hover{
+    transform: scale(1.02);
+}
+
+.course-title-video h1{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #0074ff;
+    transition: color 0.4s linear;
+}
+.course-title-video h1:hover{
+    color: #141d28;
+}
+
+#course-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #212b38;
+}
+
+#course-contact-title{
+    font-size: 38px;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+    color: #0074ff;
+    margin-top: 60px;
+}
+.course-contact-box{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+.box-contact-info{
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+    border: 1px solid #212b38;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #141d28;
+    transition: background 0.5s linear;
+}
+.box-contact-info:hover{
+    background-color: #212b38;
+}
+
+.box-contact-info i{
+    font-size: 25px;
+    color: #0074ff;
+    transition: color 0.3s linear;
+}
+.box-contact-info i:hover{
+    color: #141d28;
+}
+.box-contact-info p{
+    font-size: 18px ;
+    color: white;
+}
+
+
+
+
+
+
+
+/* enroll box */
+.enroll-box{
+    position: absolute;
+    top: 7%;
+    right: 20px;
+    width: 400px;
+    background-color: #141d28;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.enroll-fixed {
+    position: fixed; /* Fixed si uu joogto u noqdo */
+    top: 15%;
+    right: 20px;
+    animation: enrollfixed 0.3s forwards;
+}
+
+@keyframes enrollfixed {
+    from {
+        top: 100%;
+    }
+    to {
+        top: 13%;
+        box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+}
+.course-themnail img{
+    width: 100%;
+}
+
+
+.course-includes h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    margin: 20px 0;
+}
+
+.course-features{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+    color: white;
+}
+
+.course-features p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+}
+.course-features .left-features{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.course-features .left-features i{
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+    transition: color 0.4s linear;
+
+}
+.course-features .left-features i:hover{
+    color: #0074ff;
+}
+
+.righ-features p{
+    padding: 5px;
+    text-align: right;
+}
+
+#course-fee{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    transition: color 0.4s linear;
+}
+
+#course-fee:hover{
+    color: #0074ff;
+}
+.enrol-procees{
+    width: 100%;
+    padding: 0 30px;
+}
+.Enroll-now{
+    width: 100%;
+    padding: 8px 20px;
+    font-size: 16px ;
+    font-weight: 500;
+    background-color: #0074ff;
+    border: 1px solid #0074ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.4s linear;
+}
+
+.Enroll-now:hover{
+    background-color: rgb(0, 80, 255);
+}
+
+
+
+
+
+
+/* payment model */
+.payment-enroll{
+    display: none;
+    justify-content: center;
+    align-items: flex-end;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    transition: display 1s ease-in-out;
+}
+
+
+.enroll-model{
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 600px;
+    position: relative;
+}
+
+.course_payment-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.course_payment-title h1{
+    color: #0074ff;
+    font-size: 28px;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+#enroll_form{
+    width: 100%;
+}
+.form_personal_info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.form_personal_info h5{
+    font-size: 18px;
+    line-height: 30px;
+    color: #0074ff;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.form_personal_info input{
+    color: #000;
+    padding: 10px;
+    font-size: 15px;
+    border: 0.1125rem solid #272a2e;
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+input:focus{
+    outline: none;
+    border: 0.11875rem solid #0074ff;
+    font-family: sans-serif;
+}
+
+#course-info-enroll{
+    font-size: 18px;
+    line-height: 30px;
+    color: #0074ff;
+    font-weight: 500;
+    font-family: sans-serif;
+    text-transform: capitalize;
+}
+
+.course-info_enroll{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+.course-info_enroll input{
+    color: #666;
+    padding: 8px 10px;
+    font-size: 16px;
+    border: 0.1125rem solid #141d28;
+    border-radius: 3px;
+    font-family: sans-serif;
+}
+
+.course-info_enroll input:focus{
+    outline: none;
+    font-family: sans-serif;
+}
+#Email{
+    color: #666;
+}
+#course-title-input{
+    flex: 1;
+}
+#price{
+    max-width: 150px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    color: #666;
+}
+
+input::placeholder{
+    color: #212b38;
+}
+
+
+.course-payment{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.course-payment select , input{
+    padding: 8px 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.course-payment input{
+    flex: 1;
+
+}
+
+.course-payment select{
+    width: 10rem;
+}
+.course-payment select:focus{
+    outline: none;
+}
+
+.payment-btn{
+    background-color: #0074ff;
+    width: 100%;
+    margin-top: 20px;
+    padding: 8px 5px ;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: background 0.4s linear;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+}
+.payment-btn:hover{
+    background-color: #1654a1;
+}
+
+.enroll-model i{
+    position: absolute;
+    top: -1%;
+    right: -1%;
+    color: white;
+    background-color: #141d28;
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+small{
+    color: rgb(255, 18, 18);
+    font-size: 14px;
+    display: none;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+/* responsive  phone*/
+
+
+
+@media screen and (max-width: 768px) {
+    .toggle-btn {
+        display: flex;
+    }
+    .logo-brand h1 {
+        text-transform: capitalize;
+        font-size: 25px;
+        color: white;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--color-black);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .menu ul li {
+        padding: 10px 0;
+    }
+
+    .menu ul li:hover .dropdown {
+        position: relative;
+        top: 0;
+        box-shadow: none;
+    }
+
+    .menu ul li:hover .dropdown ul {
+        margin: 0;
+    }
+
+    .userAction {
+        display: none;
+    } 
+
+    .menu .userAction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .menu .userAction .login button {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+   
+}   
+
+
+/* responsive phone */
+
+@media screen and (max-width: 767px){
+    .course-enroll-box{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .course-info{
+        max-width: 400px;
+    }
+    
+.course-video-trailer {
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.enroll-box{
+    position: sticky;
+    margin-top: 40px;
+    width: 400px;
+    background-color: #141d28;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.course-title-video iframe{
+    width: 100%;
+    height: 350px;
+}
+}
+
+
+@media screen  and (width: 768px){
+    .course-enroll-box{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .course-info{
+        max-width: 600px;
+    }
+    
+.course-video-trailer {
+    width: 90%;
+    height: 400px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.enroll-box{
+    position: sticky;
+    margin-top: 40px;
+    left: 18%;
+    width: 500px;
+    background-color: #141d28;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.course-title-video iframe{
+    width: 100%;
+    height: 350px;
+}
+}
+
+@media screen and (max-width: 834px) and (min-width: 768px){
+    .toggle-btn {
+        display: flex;
+    }
+    .logo-brand h1 {
+        text-transform: capitalize;
+        font-size: 25px;
+        color: white;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--color-black);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .menu ul li {
+        padding: 10px 0;
+    }
+
+    .menu ul li:hover .dropdown {
+        position: relative;
+        top: 0;
+        box-shadow: none;
+    }
+
+    .menu ul li:hover .dropdown ul {
+        margin: 0;
+    }
+
+    .userAction {
+        display: none;
+    } 
+
+    .menu .userAction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 20px;
+    }
+
+    .menu .userAction .login button {
+        width: 100%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    /* course deitia */
+    .course-enroll-box{
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+    }
+    .course-info{
+        max-width: 700px;
+    }
+    .course-info p{
+        font-size: 25px;
+    }
+    
+.course-video-trailer {
+    width: 90%;
+    height: 400px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+}
+
+
+
+/* responsive big ipad */
+
+
+@media screen and (max-width: 1114px) and (min-width: 836px) {
+    .toggle-btn {
+        display: flex;
+    }
+    .logo-brand h1 {
+        text-transform: capitalize;
+        font-size: 32px;
+        color: white;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: var(--color-black);
+        position: absolute;
+        top: 80px;
+        left: 0;
+        z-index: 1000;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+
+    .menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    .menu ul li {
+        padding: 10px 0;
+        font-size: 32px;
+    }
+
+    .menu ul li:hover .dropdown {
+        position: relative;
+        top: 0;
+        box-shadow: none;
+    }
+
+    .menu ul li:hover .dropdown ul {
+        margin: 0;
+    }
+
+    .menu ul li:hover .dropdown ul li{
+        font-size: 32px;
+    }
+    .userAction {
+        display: none;
+    }
+}

@@ -1,0 +1,246 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+:root{
+    --color-primary:#0074ff;
+    --color-black :#141d28;
+    --color-black2:#212b38;
+    --color-white:#e9e9e9;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.container{
+    width: 1110px;
+    margin: auto;
+    /* padding: 10px; */
+    /* height: 100%; */
+}
+
+.footer {
+    background-color: #141d28;
+    padding: 40px 10px;
+    margin-top: 100px;
+    position: relative;
+    z-index: 1; /* Footer-ka hoos ugu dhacaya circle-footer */
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+}
+
+
+
+.circle-footer {
+    position: absolute;
+    top: -170px;
+    left: -170px;
+    background-color: #0074ff;
+    width: 700px;
+    height: 700px;
+    z-index: 0;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+}
+
+
+.footer-grip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding: 10px 0;
+    position: relative;
+    z-index: 2; 
+}
+
+.footer-grip .footer-title{
+    color: white;
+    font-size: 1.52rem;
+    font-weight: 800;
+    line-height: 28px;
+    margin-bottom:20px;
+    transition: color 0.4s linear;
+    text-transform: capitalize;
+    font-family: "Heebo", serif;
+    letter-spacing: 1.5px;
+}
+
+.footer-grip .footer-title:hover{
+    color: #0074ff;
+}
+
+.footer-title.contact-title:hover{
+    color: #141d28;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 10px;
+}
+
+
+
+.footer-grip .contacts .contact-box{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.footer-grip .contacts .contact-box p{
+    color: white;
+    font-size: 1.025rem;
+    font-weight: 500;
+}
+.footer-grip .contacts .contact-box i{
+    color: white;
+    font-size: 1.5rem;
+    transition:  color 0.4s linear;
+}
+
+.footer-grip .contacts .contact-box i:hover{
+    color: #141d28;
+}
+
+
+.socail-media{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.socail-media a{
+    text-decoration: none;
+}
+
+.socail-media a i{
+    font-size: 1.8rem;
+    transition: color 0.4s linear;
+}
+
+.facebook{
+    color: white;
+}
+
+.instagram {
+    color: #dd2a78;
+    /* font-weight: 100; */
+}
+.whatsapp i{
+    color: green;
+    font-weight: 900; 
+    font-size: 1.5rem;
+}
+.youtube i{
+    color: red;
+}
+
+.socail-media a i:hover{
+    color: #141d28;
+}
+.course-categorys {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+
+.course-categorys .categorys-footer {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+
+.course-categorys .categorys-footer p{
+     color: white;
+    font-size: 1.025rem;
+    font-weight: 500;
+}
+
+
+.course-categorys .categorys-footer i{
+    color: white;
+    font-size: 1.5rem;
+    transition:  color 0.4s linear;
+}
+.course-categorys .categorys-footer i:hover{
+    color: #0074ff;
+}
+
+.quick-link{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 100px;
+}
+
+.quick-link a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px), (max-width: 834px), (max-width: 1114px) {
+    .footer-grip {
+      display: flex;
+      flex-direction: column;
+      align-items: self-start;
+      text-align: right;
+      z-index: 1;
+    }
+    .circle-footer{
+        display: none;
+        z-index: -1;
+    }
+    .container{
+        width: 100%;
+    }
+  
+    .footer-title {
+      text-align: center;
+    }
+  
+    .contacts, .course-categorys, .quick-link {
+      align-items: flex-start;
+      text-align: center;
+      margin-left: 0;
+      z-index: 2;
+    }
+  
+    .contacts .contact-box, 
+    .course-categorys .categorys-footer, 
+    .quick-link a {
+      display: flex;
+      align-items: flex-start;
+      text-align: center;
+    }
+    .course-categorys{
+        margin-left: 0;
+    }
+
+    .socail-media {
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .footer .footer-grip:hover h1:hover{
+     color: #0074ff;
+    }
+    .footer .footer-grip .contacts:hover i:hover{
+        color: #0074ff;
+    }
+  }
+  

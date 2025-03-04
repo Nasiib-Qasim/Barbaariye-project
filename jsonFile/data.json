@@ -1,0 +1,317 @@
+[
+	{
+		"id": 1,
+		"title": "Modren JavaScript For Beginers",
+		"description": "Learn the basics of JavaScript programming.",
+		"instructor": "Mohamed Bashir",
+		"enrollmentCount": 50,
+		"category": "web development",
+		"start_date": "2024-11-05",
+		"price": "30 DOLLARS",
+		"end_date": "2025-09-15",
+		"trailer_video":"videos/1 Welcome.mp4",
+		"photo": "https://blog.winserver.ne.jp/wp-content/uploads/2024/02/JS%E3%81%A8%E3%81%AF.png",
+
+		"lessons": [
+			{
+				"id": 1,
+				"title": "Intrduction",
+				"duration": "0:00:28",
+				"video": "videos/1 Welcome.mp4",
+				"content": "Intrduction"
+			},
+			{
+				"id": 2,
+				"title": "What JavaScript",
+				"duration": "0:4:40",
+				"video": "videos/2      What JavaScript.mp4",
+				"content": "What JavaScript"
+			},
+			{
+				"id": 3,
+				"title": "SettingDevelopment",
+				"duration": "0:03:15",
+				"video": "videos/3 SettingDevelopment.mp4",
+				"content": "SettingDevelopment."
+			},
+			{
+				"id": 4,
+				"title": "JavaScript browsers",
+				"duration": "0:03:47",
+				"video": "videos/4 JavaScript browsers.mp4",
+				"content": "JavaScript browsers."
+			},
+			{
+				"id": 5,
+				"title": "JavaScript Tutorial For Beginners 05",
+				"duration": "1 hour",
+				"video": "images/vid-6.mp4",
+				"content": "In this lesson, you will learn about JavaScript Switch.."
+			},
+			{
+				"id": 6,
+				"title": "JavaScript Tutorial For Beginners 06",
+				"duration": "1.5 hours",
+				"video": "images/vid-9.mp4",
+				"content": "This lesson covers JavaScript Loop.."
+			}
+		]
+		
+		
+	},
+	{
+		"id": 2,
+		"title": "Advanced Web Development",
+		"description": "Master advanced techniques in web development.",
+		"instructor": "Eng Awil",
+		"enrollmentCount": 30,
+		"category": "web development",
+		"price": "79 DOLLARS",
+		"start_date": "2024-09-01",
+		"end_date": "2024-12-15",
+		"trailer_video":"images/1080.mp4",
+		"lessons": [
+			{
+				"id": 1,
+				"title": "Intrduction",
+				"duration": "36 sec",
+				"video": "images/Who this.mp4",
+				"content": "Who This Course For is."
+			},
+			{
+				"id": 2,
+				"title": "What you Need to Take ",
+				"duration": " 0:01:31",
+				"video": "images/vid-3.mp4",
+				"content": "What you Need to Take this Course."
+			},
+			{
+				"id": 3,
+				"title": "How to web works",
+				"duration": "0:04:51",
+				"video": "images/How to web works.mp4",
+				"content": "How to web works"
+			},
+			{
+				"id": 4,
+				"title": "Inspecting HTTP and Security.",
+				"duration": "0:04:51",
+				"video": "images/Inspecting HTTP.mp4",
+				"content": "Inspecting HTTP and Security."
+			},
+			{
+				"id": 5,
+				"title": "Formating code",
+				"duration": "0:04:15",
+				"video": "images/formating code.mp4",
+				"content": "Formating code."
+			},
+			{
+				"id": 5,
+				"title": "Languages and tools",
+				"duration": "0:04:15",
+				"video": "images/Languages and tools.mp4",
+				"content": "Languages and tools."
+			},
+			{
+				"id": 5,
+				"title": "Validating web page",
+				"duration": "0:04:15",
+				"video": "images/Validating web page.mp4",
+				"content": "Validating web page."
+			}
+		],
+		"photo": "https://happenings.lpu.in/wp-content/uploads/2024/05/Advanced-web-development.jpg"
+	},
+	{
+		"id": 3,
+		"title": "The Ultimate Git Course",
+		"description": "Master The Ultimate Git Course.",
+		"instructor": "Mosh Hamedani",
+		"enrollmentCount": 40,
+		"category": "software development",
+		"price": "20 DOLLARS",
+		"trailer_video":"videos/1 Git.mp4",
+		"start_date": "2023-08-15",
+		"end_date": "2023-10-30",
+		"lessons": [
+			{
+				"id": 1,
+				"title": "Introduction",
+				"duration": "0:00:51",
+				"video": "videos/1 Git.mp4",
+				"content": "introduction."
+			},
+			{
+				"id": 2,
+				"title": "How to take this course",
+				"duration": "2 hours",
+				"video":"videos/2Git.mp4",
+				"content": "How to take this course"
+			},
+			{
+				"id": 3,
+				"title": "What is Git?",
+				"duration": "0:02:31",
+				"video": "videos/3Git.mp4",
+				"content": "What is Git"
+			},
+			{
+				"id": 4,
+				"title": "Using Git",
+				"duration": "0:02:31",
+				"video": "videos/4 Git.mp4",
+				"content": "Using Git."
+			},
+			{
+				"id": 5,
+				"title": "Installing Git?",
+				"duration": "0:01:31",
+				"video": "videos/4 Git.mp4",
+				"content": "Installing Git."
+			}
+		],
+		"photo": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://www.filepicker.io/api/file/tsmP4fdkSmKaiez6t2jl"
+	},
+	{
+		"id": 4,
+		"title": "Python for Data Science",
+		"description": "Learn Python programming for data analysis and visualization.",
+		"instructor": "Michael Johnson",
+		"enrollmentCount": 35,
+		"category": "Data science",
+		"price": "50 DOLLARS",
+		"trailer_video":"videos/1 Python.mp4",
+		"start_date": "2023-09-15",
+		"end_date": "2023-12-31",
+		"lessons": [
+			{
+				"id": 1,
+				"title": "Introduction to Python",
+				"duration": "0:00:50",
+				"video": "videos/1 Python.mp4",
+				"content": "Introduction to Python"
+			},
+			{
+				"id": 2,
+				"title": "Prerequisites",
+				"duration":  "0:00:54",
+				"video": "videos/2 Python.mp4",
+				"content": "Prerequisites"
+			},
+			{
+				"id": 3,
+				"title": "Course Materials",
+				"duration": "0:01:00",
+				"video":"videos/3 Python.mp4",
+				"content": "Course Materials"
+			},
+			{
+				"id": 4,
+				"title": "How to take this course",
+				"duration": "0:01:00",
+				"video": "videos/3 Python.mp4",
+				"content": "How to take this course."
+			},
+			{
+				"id": 5,
+				"title": "Data Storage and Big Data Frameworks",
+				"duration": "2 hours",
+				"video": "images/vid-1.mp4",
+				"content": "Data storage and big data frameworks."
+			},
+			{
+				"id": 6,
+				"title": "Data Visualization",
+				"duration": "2 hours",
+				"video": "images/vid-2.mp4",
+				"content": "This Lesson covers Data visualizations."
+			}
+		],
+		"photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2FPzRAPZRP9s3WqiNE0iiilSDI7XgKPXquQ&s"
+	},
+
+	{
+		"id": 5,
+		"title": "Mobile App Development course",
+		"description": "Learn to develop mobile apps for iOS and Android platforms.",
+		"instructor": "Olivia Taylor",
+		"enrollmentCount": 30,
+		"start_date": "2023-08-01",
+		"category": "mobile app development",
+		"price": "65 DOLLARS",
+		"trailer_video":"images/vid-1.mp4",
+		"end_date": "2023-09-15",
+		"lessons": [
+			{
+				"id": 1,
+				"title": "Introduction to Mobile App Development",
+				"duration": "2 hours",
+				"video": "images/vid-6.mp4",
+				"content": "Get started with mobile app development."
+			},
+			{
+				"id": 2,
+				"title": "Android Versions History",
+				"duration": "1.5 hours",
+				"video": "images/vid-7.mp4",
+				"content": "Learn to create intuitive user interfaces for mobile apps."
+			},
+			{
+				"id": 3,
+				"title": "Building User Interface",
+				"duration": "1.5 hours",
+				"video": "images/vid-8.mp4",
+				"content": "Learn to create intuitive user interfaces for mobile apps."
+			}
+		],
+		"photo": "https://thedigitaladda.com/wp-content/uploads/Best-Android-Mobile-App-Development-Course-Training-in-Jalandhar.png"
+	},
+
+
+	{
+		"id": 6,
+		"title": "Masterin JavaScript Unit Testing",
+		"description": "You learn by Mastering JavaScript Unit Testing.",
+		"instructor": "Mosh Hamedani",
+		"enrollmentCount": 50,
+		"start_date": "2024-11-10",
+		"price": "50 DOLLARS",
+		"end_date": "2023-10-30",
+		"category": "software development",
+		"trailer_video":"videos/1js u.mp4",
+		"lessons": [
+			{
+				"id": 1,
+				"title": "Introduction",
+				"duration": "0:01:28",
+				"video": "videos/1js u.mp4",
+				"content": "Introduction"
+			},
+			{
+				"id": 2,
+				"title": "Prerequisites",
+				"duration": "0:00:43",
+				"video": "videos/2js u.mp4",
+				"content": "Prerequisites."
+			},
+			{
+				"id": 3,
+				"title": "Course Structure",
+				"duration": "0:02:13",
+				"video": "videos/3js u.mp4",
+				"content": "Course Structure"
+			},
+			{
+				"id": 4,
+				"title": "How to take this course",
+				"duration": "0:00:43",
+				"video": "videos/4js u.mp4",
+				"content": "How to take this course"
+			}
+			
+		],
+		"photo": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/GTzfyhsDSue884t4t7gm"
+	}
+
+]

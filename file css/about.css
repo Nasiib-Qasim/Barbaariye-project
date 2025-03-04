@@ -1,0 +1,739 @@
+/* General Styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+:root {
+    --color-primary: #0074ff;
+    --color-black: #141d28;
+    --color-black2: #212b38;
+    --color-white: #e9e9e9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    color: var(--color-white);
+    position: relative;
+}
+
+
+
+.container{
+    width: 1110px;
+    margin: auto;
+    /* padding: 10px; */
+    /* height: 100%; */
+}  
+
+
+.hero-section{
+    background: linear-gradient(to left, 
+    rgba(26, 118, 209, 0.7) 0%, 
+    rgba(26, 118, 209, 0.5) 20%, 
+    rgba(0, 116, 255, 0.8) 100%), 
+    url("./concentrated-blonde-business-woman-using-laptop-computer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transform: scaleX(-1);
+    background-position-y: 0%; 
+    background-position-x: 50%; 
+    height: 100vh; 
+    width: 100%;
+    z-index: -10;
+}
+.container-hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    height: 100%;
+    transform: scaleX(-1);
+}
+
+
+.about-img img{
+    width: 555px;
+    height: 567px;
+}
+
+.information-hero h1{
+    font-size: 33px;
+    font-weight: 900;
+    text-transform: capitalize;
+    transition: transform 0.5s ease-in-out;
+    animation: textAnimation 1s linear;
+    animation-fill-mode: backwards;
+    text-wrap: no-wrap;
+    color: black;
+}
+
+#color{
+    color: white;
+}
+
+@keyframes textAnimation{
+    0%{
+        left: -100px;
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+        left: -75px;
+    }
+    50%{
+        opacity: 0.25;
+        left: -50px;
+    }
+    75%{
+        opacity: 0.5;
+        left: -25px;
+    }
+    90%{
+        opacity: 0.75;
+        left: -10px;
+    }
+    100%{
+        opacity: 1;
+        left: 0;
+    }
+}
+
+.information-hero p{
+    font-size: 1.252rem;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    transition: transform 0.5s ease-in-out;
+    animation: praghraphAnimation 1s linear;
+    animation-fill-mode: backwards;
+    position: relative;
+    color: white;
+}
+
+@keyframes praghraphAnimation{
+    0%{
+        bottom:  -100px;
+        opacity: 0;
+    }
+  
+    50%{
+        opacity: 0;
+        bottom:  -50px;
+    }
+    75%{
+        opacity: 0.75;
+        bottom:  -25px;
+    }
+    90%{
+        opacity: 0.9;
+        bottom:  -10px;
+    }
+    100%{
+        opacity: 1;
+        bottom:  0;
+    }
+}
+
+.read-more{
+    background-color: #0074ff;
+    padding: 10px 15px;
+    font-size: 1.25rem;
+    text-transform: capitalize;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 15px;
+    transition: transform 0.5s ease-in-out;
+    animation: button 1s linear;
+    animation-delay: 0.5s;
+    animation-fill-mode: backwards;
+    position: relative;
+}
+
+.information-hero button a{
+    color: white;
+    text-decoration: none;
+}
+
+ .information-hero .read-more:hover{
+    background-color: #141d28;
+    transition: background 0.6s linear;
+}
+
+
+@keyframes button{
+    0%{
+        left: 100px;
+        opacity: 0;
+    }
+    25%{
+        opacity: 0;
+        left: 75px;
+    }
+    50%{
+        opacity: 0;
+        left: 50px;
+    }
+    75%{
+        opacity: 0.5;
+        left: 25px;
+    }
+    90%{
+        opacity: 0.75;
+        left: 10px;
+    }
+    100%{
+        opacity: 0;
+        left: 0;
+    }
+}
+
+
+
+/* About Section */
+.ceo{
+    background-color: rgb(20, 29, 40);
+    padding:80px 0;
+}
+.CEO-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ceo-image{
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.messege_box{
+    position:absolute;
+    left: 0;
+    top: 0;
+    background-color: #0074ff;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translateY(150%);
+    transition: all 0.4s linear;
+}
+.messege_box i{
+    color: #212b38;
+    font-size: 40px;
+}
+
+.messege_box p{
+    font-size: 19px;
+}
+
+.ceo-image:hover .messege_box{
+    transform: translateY(0%);
+    height: 100%;
+}
+
+ .CEO-box img {
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+    margin-bottom: -5px;
+}
+
+ .ceo-content {
+    flex: 1;
+    max-width: 500px;
+    text-align: left;
+    padding: 20px;
+}
+
+.ceo-content i{
+    font-size: 30px;
+    color: #0074ff;
+    margin: 0 10px;
+}
+.ceo-content h2{
+    font-size: 30px;
+    color: #0074ff;
+}
+.ceo-content p{
+    font-size: 18px;
+    color:var(--color-white);
+}
+
+
+
+.coe-title{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.coe-title img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.title h1{
+    color: #0074ff;
+}
+.title p{
+    font-size: 16px;
+    color: #e0f2e9;
+}
+
+
+
+
+
+/* our Motivational */
+.our-target{
+    margin: 80px 0 100px 0;
+}
+
+.Motivational{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.line_Motivational{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 5px;
+    height: 400px;
+    background-color: #141d28;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.line_Motivational i{
+    font-size: 30px;
+    color: white;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #0074ff;
+    border: 1px solid #0074ff;
+    transition: background 0.3s linear;
+}
+.line_Motivational i:hover{
+    background-color: #141d28;
+    color: #0074ff;
+}
+
+.Motivation_box{
+    background-color: #141d28;
+    box-shadow: 0 10px 15px rgba(20, 29, 40,0.7);
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: background 0.3s linear;
+}
+
+.Motivation_box i{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #0074ff;
+}
+
+.Motivation_box h2{
+    font-size: 1.5rem;
+    color: white;
+    margin: 10px 0;
+}
+.Motivation_box p{
+    font-size: 18px;
+}
+
+.Motivation_box:hover i{
+    color: white;
+}
+.Motivation_box:hover{
+    background-color: #0074ff;
+}
+.vision_right{
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+
+
+
+.our_team{
+    margin-top: 13%;
+    margin-bottom: 80px;
+}
+.our_team h1{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 2.8rem;
+    color: #0074ff;
+}
+ #team_desc{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 19px;
+    color: #666;
+}
+
+.team img{
+  width: 100%;
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.team_box{
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(20, 29, 40,0.2);
+    border-radius: 10px;
+    position: relative;
+    max-height: 350px;
+    transition: transform 0.4s linear;
+}
+.team_box img{
+    height: 350px;
+}
+.team_info{
+    position: absolute;
+    bottom: 0%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #0074ff;
+    width: 100%;
+    transform: translateY(39%);
+    transition: transform 0.4s linear;
+}
+
+.team_info h4{
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    font-size: 20px;
+}
+.team_info p{
+    color: rgb(199, 198, 198);
+    text-align: center;
+    font-size: 19px;
+}
+.team_box:hover .team_info{
+    transform: translateY(0);
+}
+.team_info:hover{
+    transform: translateY(0);
+}
+
+.team_social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.team_social i{
+    color: white;
+    font-size: 1.8rem;
+    transition: color 0.4s linear;
+}
+.team_social i.fa-whatsapp{
+    color: white;
+}
+.team_social i.fa-square-instagram{
+    color: #dd2a78;
+}
+
+.team_social i:hover{
+    color: #141d28;
+}
+
+
+
+@media screen and (max-width: 767px) {
+   .about-img{
+    display: none;
+   }
+   .information-hero{
+    max-width: 400px;
+    margin: 10px;
+   }
+   .information-hero h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: #141d28;
+}
+
+.information-hero p{
+    font-size: 1.252rem;
+    font-weight: 300;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+#color{
+    color: #141d28;
+}
+.CEO-box{
+    display: flex;
+    flex-direction: column;
+}
+.ceo-image{
+    margin: 10px;
+    background-color: #0074ff;
+}
+.messege_box p{
+    font-size: 18px;
+}
+
+.CEO-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ceo-image img{
+   height: 400px; 
+}
+.line_Motivational{
+    display: none;
+}
+
+.Motivational{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: auto;
+}
+.our_team{
+    margin-top: 70%;
+}
+.our_team h1{
+    font-size: 35px;
+}
+.team{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.team_box{
+    margin: 20px;
+}
+#text_remove{
+    display: none;
+}
+}
+
+
+
+
+@media screen and (min-width: 766px) and (max-width: 769px){
+    .about-img{
+        display: flex;
+       }
+       .about-img img{
+        width: 350px;
+        height: 450px;
+    }
+       .information-hero{
+        max-width: 450px;
+        margin-left: -10px;
+       }
+       .information-hero h1{
+        font-size: 30px;
+        font-weight: 900;
+        color: #141d28;
+    }
+    
+    .information-hero p{
+        font-size: 1.252rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    #color{
+        color: #141d28;
+    }
+    .CEO-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .ceo-image{
+        margin: 10px;
+        background-color: #0074ff;
+    }
+    .messege_box p{
+        font-size: 18px;
+    }
+    
+    .CEO-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .ceo-image img{
+       height: 400px; 
+    }
+    .line_Motivational{
+        display: none;
+    }
+    
+    .Motivational{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: auto;
+    }
+    .our_team{
+        margin-top: 40%;
+
+    }
+    .our_team h1{
+        font-size: 35px;
+    }
+    .team{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .team_box{
+        margin: 20px;
+    }
+    #text_remove{
+        display: none;
+    }
+    .yahye{
+        /* order: 1; */
+        grid-column: 1/2;
+        max-width: 50vw;
+        place-items: center;
+        position: relative;
+        left: 18vh;
+        margin: 0;
+    }
+}
+
+
+
+
+/* taleefanada */
+
+
+
+/*  ipad kaygay */
+@media screen and (min-width: 799px) and (max-width: 1114px){
+    .about-img{
+        display: flex;
+       }
+       .about-img img{
+        width: 350px;
+        height: 450px;
+    }
+       .information-hero{
+        max-width: 400px;
+        margin: 10px;
+       }
+       .information-hero h1{
+        font-size: 30px;
+        font-weight: 900;
+        color: #141d28;
+    }
+    
+    .information-hero p{
+        font-size: 1.252rem;
+        font-weight: 300;
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+    #color{
+        color: #141d28;
+    }
+    .CEO-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .ceo-image{
+        margin: 10px;
+        background-color: #0074ff;
+    }
+    .messege_box p{
+        font-size: 18px;
+    }
+    .ceo-image img{
+        max-width: 500px;
+        height: 440px; 
+     }
+    
+    .CEO-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .line_Motivational{
+        display: none;
+    }
+    
+    .our-target{
+        margin-top: 20%;
+    }    
+    .Motivational{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        margin: auto;
+    }
+    .our_team{
+        margin-top: 30%;
+    }
+    .our_team h1{
+        font-size: 35px;
+    }
+    .team{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin: 0 20px;
+    }
+    .vision_right{
+        align-items: center;
+        justify-content: center;
+    }
+    #text_remove{
+        display: none;
+    }
+}
+
+
+
+
+

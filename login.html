@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form validation</title>
+    <link rel="stylesheet" href="./file css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="login-page">
+    <div class="container">
+        <div class="right-back-login">
+            <i class="fa-solid fa-user"></i>
+            <h1 id="login-title">Welcome Back</h1>
+            <p>Barbaariye Technology</p>
+        </div>
+        <div class="left-form">
+            <form  class="regester" id="regester">
+                <div class="form-control username-container">
+                    <label for="username">username</label>
+                    <input type="text" name="username" id="username" class="username" placeholder="Username"> 
+                    <!-- <i class="fa fa-check"></i> -->
+                    <!-- <i class="fa fa-close"></i> -->
+                    <small>Error massege</small>
+                </div>
+                <div class="form-control email-container">
+                    <label for="email">email</label>
+                    <input type="text" name="email" id="email" class="email" placeholder="Username"> 
+                    <!-- <i class="fa fa-check"></i> -->
+                    <!-- <i class="fa fa-close"></i> -->
+                    <small>Error massege</small>
+                </div>
+                <div class="form-control password-container">
+                    <label for="password">password</label>
+                    <input type="password" name="password" id="password" class="password" placeholder="Password"> 
+                    <!-- <i class="fa fa-check"></i> -->
+                    <!-- <i class="fa fa-close"></i> -->
+                    <small>Error massege</small>
+                </div>
+                <div class="form-control confirmPassword-container">
+                    <label for="confirmPassword">confirm Password</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" class="confirmPassword" placeholder="Confirm Password"> 
+                    <!-- <i class="fa fa-check"></i> -->
+                    <!-- <i class="fa fa-close"></i> -->
+                    <small>Error massege</small>
+                </div>
+                <div class="swich-from">
+                    <button type="submit" id="btn" class="btn" >Sing in</button>
+                    <p id="swich-author">
+                        do not have an account? <a href="#" id="swich-from">register now</a>
+                    </p>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+    <script src="./js/login.js"></script>
+</body>
+</html>

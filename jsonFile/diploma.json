@@ -1,0 +1,519 @@
+[
+  
+    {
+      "title": "PHP full course and mestering Tutorials | Somali",
+      "description": "waxaan ku diyaarinay course php oo dhameestiran",
+      "trailer_video": "DmGUuqlNtb4",
+      "author": "https://dugsiiyeimages.s3.ap-south-1.amazonaws.com/avatars/61cd787c502bb43f7dcc3141-1736818012754.webp",
+      "teacher": "Mohamuud osmaan mchamuuda",
+      "price": "45",
+      "thumbnail": "https://i.ytimg.com/vi/DmGUuqlNtb4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAcwhCvtwnkaTjY3aKaF5Nw4mxYlg",
+      "lessons": [
+        {
+          "videoId": "kZ6knnxtndA",
+          "title": "Learn PHP | Environment Setup  Installing Xampp and Vs Code | Php Somali Tutorials | Part 2",
+          "index": "2",
+          "lengthSeconds": "707",
+          "lengthText": "11:47"
+        },
+        {
+          "videoId": "X1NOrWTWDpw",
+          "title": "Learn PHP | Hello World | Php Somali Tutorials | Part 3",
+          "index": "3",
+          "lengthSeconds": "213",
+          "lengthText": "3:33"
+        },
+        {
+          "videoId": "q_BGbytZ9jM",
+          "title": "Learn PHP | Variables | Php Somali Tutorials | Part 4",
+          "index": "4",
+          "lengthSeconds": "300",
+          "lengthText": "5:00"
+        },
+        {
+          "videoId": "UPnztqSKBac",
+          "title": "Learn PHP | Arrays | Php Somali Tutorials | Part 5",
+          "index": "5",
+          "lengthSeconds": "307",
+          "lengthText": "5:07"
+        },
+        {
+          "videoId": "tF2C2P4Nf60",
+          "title": "Learn PHP |  Array Methods | Php Somali Tutorials | Part 6",
+          "index": "6",
+          "lengthSeconds": "431",
+          "lengthText": "7:11"
+        },
+        {
+          "videoId": "vxGviQbk650",
+          "title": "Learn PHP | Sorting and Merging Arrays | Php Somali Tutorials | Part 7",
+          "index": "7",
+          "lengthSeconds": "279",
+          "lengthText": "4:39"
+        },
+        {
+          "videoId": "nxvwzA2XACA",
+          "title": "Learn PHP | Associative Array | Php Somali Tutorials | Part 8",
+          "index": "8",
+          "lengthSeconds": "240",
+          "lengthText": "4:00"
+        },
+        {
+          "videoId": "hnrXnDwybLQ",
+          "title": "Learn PHP | For Loops | Php Somali Tutorials | Part 9",
+          "index": "9",
+          "lengthSeconds": "565",
+          "lengthText": "9:25"
+        },
+        {
+          "videoId": "Fh6w10CclH4",
+          "title": "Learn PHP |  Loop Through Array | Php Somali Tutorials | Part 10",
+          "index": "10",
+          "lengthSeconds": "585",
+          "lengthText": "9:45"
+        },
+        {
+          "videoId": "iIThXi-TExI",
+          "title": "Learn PHP | Foreach | Php Somali Tutorials | Part 11",
+          "index": "11",
+          "lengthSeconds": "179",
+          "lengthText": "2:59"
+        },
+        {
+          "videoId": "sHo0Wt57MFo",
+          "title": "Learn PHP | While Loop | Php Somali Tutorials | Part 12",
+          "index": "12",
+          "lengthSeconds": "336",
+          "lengthText": "5:36"
+        },
+        {
+          "videoId": "PWRz9KJ7s0Y",
+          "title": "Learn PHP | Functions | Php Somali Tutorials | Part 13",
+          "index": "13",
+          "lengthSeconds": "305",
+          "lengthText": "5:05"
+        },
+        {
+          "videoId": "XPLTGau0r8E",
+          "title": "Learn MySQL | Insert Data Into The Database | MySQL Somali Tutorials | Part 15",
+          "index": "14",
+          "lengthSeconds": "227",
+          "lengthText": "3:47"
+        },
+        {
+          "videoId": "VISG3lFKxt8",
+          "title": "Learn MySQL | Update Data From Database | MySQL Somali Tutorials | Part 17",
+          "index": "15",
+          "lengthSeconds": "377",
+          "lengthText": "6:17"
+        },
+        {
+          "videoId": "tAgky_68bls",
+          "title": "Learn MySQL | SELECT Data From Database | MySQL Somali Tutorials | Part 18",
+          "index": "16",
+          "lengthSeconds": "249",
+          "lengthText": "4:09"
+        }
+      ]
+    },
+    {
+      "title": "Python full course",
+      "description": "waxaan ku diyaarinay course Python oo dhameestiran",
+      "trailer_video": "EFcNwHbnccg",
+      "author": "https://yt3.ggpht.com/ytc/AIdro_mSvOzM9IgIxPbwrQnaL0Uw6kKgqFn_wPEfXK-DVj6SHKKl=s176-c-k-c0x00ffffff-no-rj",
+      "teacher": "Duraan Ali",
+      "price":"39",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2FPzRAPZRP9s3WqiNE0iiilSDI7XgKPXquQ&s",
+      "lessons":[
+          {
+              "videoId": "vPZb8_Z0QZA",
+          "title": "Python - Variable - Somali Tutorial Beginner 02",
+          "index": "2",
+          "lengthSeconds": "798",
+          "lengthText": "13:18"
+          },
+          {
+              "videoId": "PNUYyaVFPlE",
+          "title": "Python - Data Types - Somali Tutorial Beginner 03",
+          "index": "3",
+          "lengthSeconds": "1117",
+          "lengthText": "18:37"
+          },
+          {"videoId": "Y5zy1cEu74A",
+          "title": "Python - Operators - Somali Tutorial Beginner 04",
+          "index": "4",
+          "lengthSeconds": "1148",
+          "lengthText": "19:08"
+      },
+      {
+          "videoId": "swBTQPmN_W0",
+          "title": "Python - List - Somali Tutorial Beginner 05",
+          "index": "5",
+          "lengthSeconds": "2367",
+          "lengthText": "39:27"
+      },
+      {
+          "videoId": "V4wUaIbJb2Q",
+          "title": "Python - Tuple - Somali Tutorial Beginner 06",
+          "index": "6",
+          "lengthSeconds": "1383",
+          "lengthText": "23:03"
+      },
+      {
+          "videoId": "bouL1zHT-Xg",
+          "title": "Python - Sets - Somali Tutorial Beginner 07",
+          "index": "7",
+          "lengthSeconds": "845",
+          "lengthText": "14:05"
+      },
+      {
+          "videoId": "P1ALB-bv2Fk",
+          "title": "Python - Dictionary - Somali Tutorial Beginner 08",
+          "index": "8",
+          "lengthSeconds": "1710",
+          "lengthText": "28:30"
+      },{
+          "videoId": "rZL79x4TOzc",
+          "title": "Python - If Else / Calculator - Somali Tutorial Beginner 09",
+          "index": "9",
+          "lengthSeconds": "1531",
+          "lengthText": "25:31"
+      },
+      {
+          "videoId": "HYBLPuXQv0A",
+          "title": "Python - While/For Loop - Somali Tutorial Beginner 10",
+          "index": "10",
+          "lengthSeconds": "1579",
+          "lengthText": "26:19"
+      },
+      {
+          "videoId": "gQ9My8NKi1c",
+          "title": "Python - Functions - Somali Tutorial Beginner 11",
+          "index": "11",
+          "lengthSeconds": "1680",
+          "lengthText": "28:00"
+      },
+      {
+          "videoId": "LWYOuvqGmwM",
+          "title": "Python - Class - Somali Tutorial Beginner 12",
+          "index": "12",
+          "lengthSeconds": "1241",
+          "lengthText": "20:41"
+      }
+      ]
+  },
+  {
+      "title": " JavaScript Bilow Ilaa Dhamaad",
+      "description": "waxaan ku diyaarinay course javascript oo dhameestiran ",
+      "author": "https://yt3.ggpht.com/Oo0GFDQojaEmykcWy9JwG5MOIl8DJupxhOe24n4QtZ45E5cc4YJzT5g4zfJvxUceSV-6KpZa=s176-c-k-c0x00ffffff-no-rj",
+      "teacher": "Omar Tood",
+      "price": "99",
+      "trailer_video": "DmGUuqlNtb4",
+      "thumbnail": "https://i.ytimg.com/vi/YKybdVlluMU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHOmydR-i2FsbhtAS-haryt0vWpw",
+      "lessons": "YKybdVlluMU"
+  },
+  {
+      "title": "html and css full course",
+      "description": "waxaan ku diyaarinay course html and css oo dhameestiran ",
+      "author": "https://yt3.ggpht.com/Oo0GFDQojaEmykcWy9JwG5MOIl8DJupxhOe24n4QtZ45E5cc4YJzT5g4zfJvxUceSV-6KpZa=s176-c-k-c0x00ffffff-no-rj",
+      "teacher": "Omar Tood",
+      "price": "99",
+      "trailer_video": "DmGUuqlNtb4",
+      "thumbnail": "https://i.ytimg.com/vi/TXKI8rXmGuU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD77W6NeIllMOqAYwXPPo9DzPtbqA",
+      "lessons": [
+        {
+          "videoId": "TXKI8rXmGuU",
+          "title": "HTML CRASH COURSE FOR BEGINERS🎯 | JSUT IN TWO HOURS | SOMALI COURSE🔥",
+          "index": "1",
+          "lengthSeconds": "8766",
+          "lengthText": "2:26:06",
+          "thumbnail": "https://i.ytimg.com/vi/TXKI8rXmGuU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD77W6NeIllMOqAYwXPPo9DzPtbqA"
+        },
+        {
+          "videoId": "sT6YmjVLd7c",
+          "title": "Beginner CSS Af-Soomaali | Somali CSS Part One💥🔥",
+          "index": "2",
+          "lengthSeconds": "8863",
+          "lengthText": "2:27:43",
+          "thumbnail": "https://i.ytimg.com/vi/sT6YmjVLd7c/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAuhXGx1BUCvPNlaVIga29A8eFQ_w"
+        },
+        {
+          "videoId": "WDIGbO01zdw",
+          "title": "Baro Css Advanced Part-Two| Af-Soomaali 👌🧠📢",
+          "index": "3",
+          "lengthSeconds": "9690",
+          "lengthText": "2:41:30",
+          "thumbnail": "https://i.ytimg.com/vi/WDIGbO01zdw/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABPAVatPMR8-BIED3DkeNfE3-9yQ"
+        }
+      ]
+    },
+    {
+      "title": " CCNA full Course",
+      "description": "waxaan ku diyaarinay course CCNA oo dhameestiran ",
+      "author": "https://yt3.googleusercontent.com/11_BhkJCmgc76IPutoApF4zgEHKAvzbs1w1YW4NNU5PzKVpbZuhHdOItXnS0JnKAleicWaq4-8k=w1707-fcrop64=1,00005a57ffffa5a8-k-c0xffffffff-no-nd-rj",
+      "teacher": "Omar Tood",
+      "price": "79",
+      "trailer_video": "9zNABEnPSGY",
+      "thumbnail": "https://i.ytimg.com/vi/9zNABEnPSGY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCBc7ronEUEAFBjixd_dKqVfZZ4Cg",
+      "lessons": [
+          {
+            "videoId": "7U4aYiA09Vw",
+          "title": "Casharkii 1aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+          "index": "2",
+          "lengthSeconds": "447",
+          "lengthText": "7:27"
+          },
+          {
+              "videoId": "qUUEQcEhb8g",
+              "title": "Casharkii 2aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+              "index": "3",
+              "lengthSeconds": "338",
+              "lengthText": "5:38"
+          },{
+              "videoId": "cQLyUXxRJQY",
+              "title": "Casharkii 3aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+              "index": "4",
+              "lengthSeconds": "646",
+              "lengthText": "10:46"
+          },{
+              "videoId": "bTcQV2ubNGA",
+          "title": "Casharkii 4aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+          "index": "5",
+          "lengthSeconds": "750",
+          "lengthText": "12:30"
+          },{
+              "videoId": "eptAgKmKJ7c",
+              "title": "Casharkii 5aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+              "index": "6",
+              "lengthSeconds": "423",
+              "lengthText": "7:03"
+          },{
+              "videoId": "KvuStA-zEHA",
+          "title": "Casharkii 6aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+          "index": "7",
+          "lengthSeconds": "947",
+          "lengthText": "15:47"
+          },{
+              "videoId": "KvuStA-zEHA",
+          "title": "Casharkii 6aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+          "index": "7",
+          "lengthSeconds": "947",
+          "lengthText": "15:47"
+          },{
+              "videoId": "NQPCb3i14RE",
+              "title": "Casharkii 7aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+              "index": "8",
+              "lengthSeconds": "774",
+              "lengthText": "12:54"
+          },{
+              "videoId": "-q5TUmhmVVA",
+          "title": "Casharkii 8aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+          "index": "9",
+          "lengthSeconds": "932",
+          "lengthText": "15:32"
+          },{
+              "videoId": "3_CXu2cy9c0",
+              "title": "Casharkii 9aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+              "index": "10",
+              "lengthSeconds": "1048",
+              "lengthText": "17:28"
+          },{
+              "videoId": "I54P5lmopRI",
+          "title": "Casharkii 10aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+          "index": "11",
+          "lengthSeconds": "720",
+          "lengthText": "12:00"
+          },{
+              "videoId": "8_lGJbozMFo",
+          "title": "Casharkii 11aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+          "index": "12",
+          "lengthSeconds": "680",
+          "lengthText": "11:20"
+          },{
+              "videoId": "qRlpaRSq9hs",
+              "title": "Casharkii 12aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+              "index": "13",
+              "lengthSeconds": "1083",
+              "lengthText": "18:03"
+          },{
+              "videoId": "2nc9RfpQGEM",
+          "title": "Casharkii 13aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+          "index": "14",
+          "lengthSeconds": "515",
+          "lengthText": "8:35"
+          },{
+              "videoId": "CCHlTF39Loc",
+          "title": "Casharkii 14aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+          "index": "15",
+          "lengthSeconds": "445",
+          "lengthText": "7:25"
+          },{
+              "videoId": "SmCNJio0SCw",
+              "title": "Casharkii 15aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+              "index": "16",
+              "lengthSeconds": "2099",
+              "lengthText": "34:59"
+          },{
+              "videoId": "C72_bxu4UGw",
+              "title": "Casharkii 16aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+              "index": "17",
+              "lengthSeconds": "687",
+              "lengthText": "11:27"
+          },{
+          "videoId": "C72_bxu4UGw",
+          "title": "Casharkii 16aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+          "index": "17",
+          "lengthSeconds": "687",
+          "lengthText": "11:27"
+          },{
+            "videoId": "5MBLUoRikHA",
+          "title": "CaCasharkii 17aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+          "index": "18",
+          "lengthSeconds": "923",
+          "lengthText": "15:23"  
+          },
+          {
+              "videoId": "xYw_uhAZjnw",
+              "title": "Casharkii 18aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+              "index": "19",
+              "lengthSeconds": "601",
+              "lengthText": "10:01"
+          },{
+              "videoId": "lWOrGyh4aDI",
+          "title": "Casharkii 19aad - Course CCNA 200-301 - Afsomali | Std.Abdiaziz",
+          "index": "20",
+          "lengthSeconds": "676",
+          "lengthText": "11:16"
+          }
+      ]
+  },
+  {
+      "title": "React full course ",
+      "description": "waxaan ku diyaarinay course React oo dhameestiran",
+      "trailer_video": "ZMru1pApsew",
+      "author": "https://dugsiiyeimages.s3.ap-south-1.amazonaws.com/avatars/61cd787c502bb43f7dcc3141-1736818012754.webp",
+      "teacher": "Mohamuud osmaan mchamuuda",
+      "price": "45",
+      "thumbnail": "https://i.ytimg.com/vi/7ZSyKZrlL5k/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQdQcems0a1-wWzQlYwGoD6atEiA",
+      "lessons":[
+          {
+              "videoId": "ZMru1pApsew",
+          "title": "React Af Somali | Baro React JS  Folder Structure #2",
+          "index": "2",
+          "lengthSeconds": "302",
+          "lengthText": "5:02"
+          },
+          {
+              "videoId": "LF4OjSl9Lwc",
+          "title": "React Af Somali | Baro React js | Write Your First React Code #3",
+          "index": "3",
+          "lengthSeconds": "812",
+          "lengthText": "13:32"
+          },{
+              "videoId": "HSqy0a10Geo",
+          "title": "Baro React JS | React Af Somali | Jsx Rules And How To Use It #4",
+          "index": "4",
+          "lengthSeconds": "622",
+          "lengthText": "10:22"
+          },{
+              "videoId": "5VQZJDCTrec",
+          "title": "Baro React | React js Afsomali | React Components and How They Work #5",
+          "index": "5",
+          "lengthSeconds": "547",
+          "lengthText": "9:07"
+          },{
+              "videoId": "6r3TPULiFEw",
+          "title": "Baro React | React js Af somali | Props #6",
+          "index": "6",
+          "lengthSeconds": "388",
+          "lengthText": "6:28"
+          },{
+              "videoId": "aphSW7cDyQ0",
+          "title": "Baro React | React js Afsomali | Creating Component As A Layout #7",
+          "index": "7",
+          "lengthSeconds": "291",
+          "lengthText": "4:51"
+          },{
+              "videoId": "V9tS9T0EkcE",
+          "title": "Baro React | React js Af somali | Code Refactoring #10",
+          "index": "8",
+          "lengthSeconds": "200",
+          "lengthText": "3:20"
+          },{
+              "videoId": "6oLBEBkWnQQ",
+          "title": "Baro React | React js Afsomali | Display  List Of Data #9",
+          "index": "9",
+          "lengthSeconds": "489",
+          "lengthText": "8:09"
+          },{
+              "videoId": "NWF3E89G-F4",
+              "title": "Baro React | React js Afsomali | Conditional Rendering #8",
+              "index": "10",
+              "lengthSeconds": "616",
+              "lengthText": "10:16"
+          },{
+              "videoId": "wy6UWXYm2aA",
+          "title": "Baro React | React Js Af Somali | Handling Events In React #11",
+          "index": "11",
+          "lengthSeconds": "286",
+          "lengthText": "4:46"
+          },{
+              "videoId": "8riClRqD5eM",
+          "title": "Baro React | React Js Af Somali | React Hooks | useState #12",
+          "index": "12",
+          "lengthSeconds": "619",
+          "lengthText": "10:19"
+          },{
+              "videoId": "DthKQuLJhtc",
+          "title": "Baro React | React Js Af Somali | React Hooks |More On useState #13",
+          "index": "13",
+          "lengthSeconds": "520",
+          "lengthText": "8:40"
+          },{
+              "videoId": "yffDkx3FejU",
+          "title": "Baro React | React Js Af Somali | React Hooks | Use Objects With useState #14",
+          "index": "14",
+          "lengthSeconds": "601",
+          "lengthText": "10:01"
+          },{
+              "videoId": "LRh0Sj8-tY4",
+          "title": "Baro React | React Js Af Somali | React Hooks | Read  Data From an External API #16",
+          "index": "16",
+          "lengthSeconds": "502",
+          "lengthText": "8:22"
+          },{
+              "videoId": "OlVPIkDoOOc",
+          "title": "Baro React | React Js Af Somali | React Hooks |  Writing better way with async functions #17",
+          "index": "17",
+          "lengthSeconds": "373",
+          "lengthText": "6:13"
+          },{
+              "videoId": "_uS6GPItE_s",
+              "title": "Baro React | React Js Af Somali | React Hooks | Adding Loader To The Hook #18",
+              "index": "18",
+              "lengthSeconds": "395",
+              "lengthText": "6:35"
+          },{
+              "videoId": "ZTlpKsHDuvA",
+              "title": "Dhis React.js eCommerce Shopping Cart With and Vite | Context, Reducer React Router Iyo Tailwind CSS",
+              "index": "19",
+              "lengthSeconds": "26883",
+              "lengthText": "7:28:03"
+          }
+      ]
+  }
+  ]
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
