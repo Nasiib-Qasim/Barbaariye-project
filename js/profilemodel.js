@@ -16,20 +16,27 @@ let logout_title = document.querySelector("#logout-title");
 let logout_desc = document.querySelector("#logout-desc"); 
 let logout_box = document.querySelector("#logout"); 
 let logout_icon = logout_box.querySelector("i"); 
+let header_username = document.querySelector("#nasiib");
+
+console.log(header_username)
 
 
 let profile_view = false;
 window.addEventListener("DOMContentLoaded",()=>{
+    // console.log(header_username)
     const user = JSON.parse(localStorage.getItem("onlineUser"));
     if(user){
         sing_btn.style.display ="none";
         show_prifile.style.display ="flex";
-
         const email = user.email; 
         const firstChar = email.charAt(0);
         email_leter.textContent = `${firstChar}U`;
         email_leter.style.textTransform ="uppercase";
-
+        
+        // const username = user.username; 
+        header_username.textContent = `${user.username} User`;
+        header_username.style.textTransform ="capitalize";
+        
         show_prifile.addEventListener("click",()=>{
             
             if(profile_model.style.display ==="block"){

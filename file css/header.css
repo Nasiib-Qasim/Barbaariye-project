@@ -211,7 +211,7 @@ body {
 /*  modal of profile */
 
 .profile-model{
-    position: absolute;
+    position: fixed;
     top: 85px;
     right: 50px;
     background-color: #141d28;
@@ -429,7 +429,7 @@ body {
      }
      .profile-model{
         position: fixed;
-        top: 55%;
+        top: 48%;
         right: 50px;
         background-color: #141d28;
         padding: 20px;
@@ -444,10 +444,10 @@ body {
  
 
  
- @media  (width >= 767px){
+ @media  (max-width: 769px) and (min-width: 767px) {
     .profile-model{
         position: fixed;
-        top: 40%;
+        top: 38%;
         right: 100px;
         background-color: #141d28;
         padding: 20px;
@@ -475,7 +475,7 @@ body {
  }
 
 
- @media  (width >= 1114px){
+ @media (max-width: 1115px) and (min-width: 1113px) {
     .profile-model{
         position: fixed;
         top: 58%;
@@ -487,6 +487,7 @@ body {
         display: none;
         z-index: 100;
         display: none;
+
     } 
  }
 
