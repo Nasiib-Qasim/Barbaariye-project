@@ -17,7 +17,8 @@ https://github.com/user-attachments/assets/b49b2bf6-9122-4f23-92f0-8bff2ae2c23c
 - Helitaanka madal waxbarasho oo tayo leh.
 - helitaanka shahaadooyin aan xadidneen.
 - inaa hesho macalimin ku heelan.
-Barbaariye Technology waxay xallinaysaa dhibaatadan ayadoo siinaya madal casri ah oo loo adeegsan karo si sahlan.
+
+  Barbaariye Technology waxay xallinaysaa dhibaatadan ayadoo siinaya madal casri ah oo loo adeegsan karo si sahlan.
 ---
 
 ## Solution
