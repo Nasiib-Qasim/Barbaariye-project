@@ -263,7 +263,7 @@ body {
     color: #0074ff;
 }
 .ceo-content p{
-    font-size: 18px;
+    font-size: 16px;
     color:var(--color-white);
 }
 
@@ -295,7 +295,7 @@ body {
 
 /* our Motivational */
 .our-target{
-    margin: 80px 0 100px 0;
+    margin: 80px 0 20% 0;
 }
 
 .Motivational{
