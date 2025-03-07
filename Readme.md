@@ -14,10 +14,9 @@ https://github.com/user-attachments/assets/b49b2bf6-9122-4f23-92f0-8bff2ae2c23c
 ## Problem Statement
 
  waxbarashada iyo xirfaduhu  waa mid muhiim ah, laakiin waxaa jira caqabado badan oo ay ka mid yihiin:
-- Helitaanka madal waxbarasho oo tayo leh.
-- helitaanka shahaadooyin aan xadidneen.
-- inaa hesho macalimin ku heelan.
-
+  - Helitaanka madal waxbarasho oo tayo leh.
+  - helitaanka shahaadooyin aan xadidneen.
+  - inaa hesho macalimin ku heelan.
 Barbaariye Technology waxay xallinaysaa dhibaatadan ayadoo siinaya madal casri ah oo loo adeegsan karo si sahlan.
 ---
 
