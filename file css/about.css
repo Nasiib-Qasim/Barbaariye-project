@@ -210,7 +210,7 @@ body {
 .ceo-image{
     position: relative;
     flex: 1;
-    max-width: 500px;
+    max-width: 520px;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -231,7 +231,7 @@ body {
 }
 
 .messege_box p{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .ceo-image:hover .messege_box{
@@ -390,6 +390,7 @@ body {
 .our_team{
     margin-top: 80px;
     margin-bottom: 80px;
+
 }
 .our_team h1{
     text-align: center;
